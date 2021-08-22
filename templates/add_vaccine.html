@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+{% block content %}
+
+add_vaccine
+
+
+<form method="POST">
+
+{{ form.hidden_tag() }}
+{{form.Vaccine_add.label}}{{form.Vaccine_add()}}
+{{form.Patient_id.label}}{{form.Patient_id()}}
+{{form.submit()}}
+
+</form>
+
+{% endblock %}

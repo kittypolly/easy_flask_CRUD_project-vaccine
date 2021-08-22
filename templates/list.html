@@ -1,0 +1,13 @@
+{% extends "template.html" %}
+{% block content %}
+
+list
+
+{% for patient in patients %}
+
+<ul>
+    <li>{{patient}}</li>
+</ul>
+{% endfor %}
+
+{% endblock %}

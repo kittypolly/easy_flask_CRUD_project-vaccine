@@ -1,0 +1,13 @@
+{% extends "template.html" %}
+{% block content %}
+
+add_p
+
+<form method="POST">
+{{ form.hidden_tag() }}
+{{form.Patient_add.label}}{{form.Patient_add()}}
+{{form.submit()}}
+
+</form>
+
+{% endblock %}

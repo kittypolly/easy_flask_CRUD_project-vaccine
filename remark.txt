@@ -1,0 +1,20 @@
+#다 만든 후에는 migrate를 꼭 해야한다.
+#1. pip install Flask-Migrate
+
+#2. export FLASK_APP=[myapp].py (여기서는 main.py를 사용한다.) 
+#2. 가 안되면 export 대신에 set을 입력해보자. 띄어쓰기 없이 해야한다.
+
+#3. flask db init # migrations라는 폴더가 생긴다.
+#4. flask db migrate -m "[commit내용]"
+#5. flask db upgrade 
+
+#4, 5번까지 하면 데이터를 저장해놓은 파일에 내용이 생긴다.
+
+----------------------------------------------------------------
+
+#string과 text의 차이
+#:string |                   VARCHAR                | :limit => 1 to 255 (default = 255)  
+#:text   | TINYTEXT, TEXT, MEDIUMTEXT, or LONGTEXT2 | :limit => 1 to 4294967296 (default = 65536)
+
+
+
