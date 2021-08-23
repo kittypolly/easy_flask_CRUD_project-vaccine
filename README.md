@@ -1,8 +1,12 @@
 # 데이터베이스 스키마 이미지
 ![스키마](https://github.com/kittypolly/easy_flask_CRUD_project-vaccine/blob/main/imgs/database_schema.png)
 
+</br>
+
 # 폴더 구조 이미지
 ![스키마](https://github.com/kittypolly/easy_flask_CRUD_project-vaccine/blob/main/imgs/folder_structure.png)
+
+</br>
 
 # 홈페이지 이미지
 ![스키마](https://github.com/kittypolly/easy_flask_CRUD_project-vaccine/blob/main/imgs/homepage.png)
