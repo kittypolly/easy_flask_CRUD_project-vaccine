@@ -16,5 +16,11 @@
 #:string |                   VARCHAR                | :limit => 1 to 255 (default = 255)  
 #:text   | TINYTEXT, TEXT, MEDIUMTEXT, or LONGTEXT2 | :limit => 1 to 4294967296 (default = 65536)
 
+----------------------------------------------------------------
+
+스키마를 그리는 사이트
+https://app.diagrams.net/
+
+
 
 
